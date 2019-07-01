@@ -17,9 +17,9 @@ weatherForm.addEventListener('submit', (e) =>{
             messageTwo.textContent = ''
         } else {
             console.log(data)
-            messageOne.textContent = "The temperature in "  + data.location + " is " + data.forecast.temperature
-            messageTwo.textContent = "Precipitation probability " + data.forecast.precipProbability
-   
+            messageOne.textContent = "The temperature in "  + data.location + " is  " + data.forecast.temperature + ""
+            messageTwo.textContent = "Precipitation probability:  " + data.forecast.precipProbability + "% "
+            
         }
     })
 })
