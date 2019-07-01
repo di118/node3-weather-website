@@ -3,7 +3,6 @@ const express = require('express')
 const hbs = require('hbs')
 const forecast = require('./utils/forecast')
 const geocode = require('./utils/geocode')
-
 const app = express()
 
 // Define paths for Express config
